@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    android:layout_margin="20dp">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:src="@drawable/blackboard"
+    android:scaleType="fitXY"
+    android:id="@+id/gallery_pic"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="25dp"
+    android:gravity="center"
+    android:id="@+id/pic_description"
+    tools:text="Blackboard"
+    android:textSize="11sp"
+    android:layout_below="@+id/gallery_pic"
+    android:textColor="@color/white"/>
+</RelativeLayout>
